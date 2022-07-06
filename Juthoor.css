@@ -829,3 +829,572 @@ footer{
 
 
     }
+
+
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+
+        .mobilehide{
+          display: none;
+        }
+
+        .desktophide{
+          display: block;
+        }
+
+        .topnav{
+          margin-bottom: 40px;
+        }
+
+        .topnav-centered{
+          padding-left: 0px;
+        }
+
+        .logo{
+          margin: 0px 135px 0px 0px;
+          width: 70%;
+          height: 60%;
+        }
+
+        .navaccount {
+          width: 30%;
+          height: 30%;
+          margin-top: 3px;
+          margin-left: 23px;
+        }
+
+        .navicons {
+          width: 650%;
+          height: 650%;
+          margin-top: 15px;
+          margin-right: -1px;
+        }
+
+        .video{
+          margin-right: -94px;
+          height: 138vw;
+          width: 110%;
+          overflow-x: hidden;
+        }
+
+        .video iframe{
+          height:135vw;
+          width:237vw;
+          position: static;
+          top: 45px;
+
+        }
+
+        .video button{
+          left: 27%;
+          bottom: 15%;
+          font-size: 45px;
+        }
+
+        .Categories{
+          flex-direction: column-reverse;
+        }
+
+        .Categories h1{
+          text-align: right;
+          font-size: 80px;
+        }
+
+        .Categories p{
+          text-align: right;
+        }
+
+        .Categoriestext {
+          padding-left: 40px;
+          width: 100%;
+          margin: -43px 0px 30px 0px;
+        }
+
+        .Categoriespics{
+          flex-direction: column;
+
+        }
+
+        .Categoriespics h2 {
+          font-size: 50px;
+          top: -9%;
+          right: -1%;
+          width: 100%;
+        }
+
+        .Categoriespics img {
+          width: 50%;
+          height: 100%;
+        }
+
+        .Categoriespics div {
+          padding: 30px 0px 30px 0px;
+        }
+
+        .welcomebanner{
+          position: static;
+          padding: 109px 74px 200px 22px;
+          height: 100%;
+          margin-right:-90px;
+        }
+
+        .welcomebanner h1 {
+          font-size: 72px;
+          text-align: center;
+          padding-right: 0px;
+        }
+
+        .welcomebanner p{
+          float: none;
+          font-size: 32px;
+          text-align: center;
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 150px;
+          padding: 0px 50px 0px 50px;
+        }
+
+        .welcomebanner button {
+          position: static;
+          right: 0px;
+          bottom: 0px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .greenbtn{
+          font-size: 32px;
+          padding: 10px 150px 10px 150px;
+        }
+
+        .CollectionHighlight{
+          flex-direction: column-reverse;
+        }
+
+        .CHtext{
+          text-align: center;
+          width: 100%;
+          margin-top: -47px;
+        }
+
+        .CHtext h2 {
+          font-size: 60px;
+        }
+
+        .CHtext p {
+          float: none;
+          width: 66%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 30px;
+          margin-bottom: 30px;
+
+        }
+
+        .CHtext button {
+          width: 59%;
+          font-size: 29px;
+          padding: 20px 150px 20px 150px;
+        }
+
+        .CHdiv h4 {
+          font-size: 36px;
+        }
+
+        .CHdiv p {
+          font-size: 28px;
+        }
+
+        .banner{
+          display: block;
+          margin-right: -10%;
+          height: 100%;
+        }
+
+        .bannertext {
+          text-align: center;
+          width: 100%;
+          padding: 50px 0px 130px 0px;
+          margin: -6px 0px 19px 0px;
+        }
+
+        .banner h1 {
+          float: none;
+          font-size: 70px;
+          text-align: right;
+          padding-right: 30%;
+        }
+
+        .bannertext p {
+          float: none;
+          font-size: 24px;
+          margin-top: 0px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+        }
+
+        .bannerdivimg {
+          width: 100%;
+          height: 570px;
+        }
+
+        .bannerimg {
+          width: 100%;
+          height: 100%;
+        }
+
+        .redx {
+          top: 92%;
+          left: 1%;
+          right: 0;
+        }
+
+        .garantees{
+          margin: -20px -97px -25px 0px;
+        }
+
+        .garantees div {
+          flex-direction: column;
+        }
+
+        .garantees h2 {
+          font-size: 60px;
+        }
+
+        .garantees div img{
+          width: 65%;
+          height: 75%;
+        }
+
+        .garantees div h6{
+          font-size: 35px;
+        }
+
+        .newsletter{
+          flex-direction: column;
+          margin-right: -97px;
+        }
+
+        .newsletter form {
+          margin-right: auto;
+          padding: 50px 0px 50px 0px;
+        }
+
+        .newsletter h1{
+          font-size: 75px;
+          padding: 75px 0px 115px 0px;
+        }
+
+        .newsletter input[type=email], input[type=submit]{
+          font-size: 50px;
+        }
+
+        .newsletter input[type=submit]{
+          font-size: 50px;
+        }
+
+        .nlredx{
+          width: 5%;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 50px 0px 50px 0px;
+        }
+
+        .footer {
+        flex-direction: column;
+        font-size: 30px;
+        }
+
+        .footer div{
+          text-align: center;
+        }
+
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .mobilehide{
+      display: none;
+    }
+
+    .desktophide{
+      display: block;
+    }
+
+    .topnav{
+      margin-bottom: 40px;
+    }
+
+    .topnav-centered{
+      padding-left: 0px;
+    }
+
+    .logo{
+      margin: 0px 135px 0px 0px;
+      width: 70%;
+      height: 60%;
+    }
+
+    .navaccount {
+      width: 30%;
+      height: 30%;
+      margin-top: 3px;
+      margin-left: 23px;
+    }
+
+    .navicons {
+      width: 650%;
+      height: 650%;
+      margin-top: 15px;
+      margin-right: -1px;
+    }
+
+    .video{
+      margin-right: -94px;
+      height: 138vw;
+      width: 110%;
+      overflow-x: hidden;
+    }
+
+    .video iframe{
+      height:135vw;
+      width:237vw;
+      position: static;
+      top: 45px;
+
+    }
+
+    .video button{
+      left: 27%;
+      bottom: 15%;
+      font-size: 45px;
+    }
+
+    .Categories{
+      flex-direction: column-reverse;
+    }
+
+    .Categories h1{
+      text-align: right;
+      font-size: 80px;
+    }
+
+    .Categories p{
+      text-align: right;
+    }
+
+    .Categoriestext {
+      padding-left: 40px;
+      width: 100%;
+      margin: -43px 0px 30px 0px;
+    }
+
+    .Categoriespics{
+      flex-direction: column;
+
+    }
+
+    .Categoriespics h2 {
+      font-size: 50px;
+      top: -9%;
+      right: -1%;
+      width: 100%;
+    }
+
+    .Categoriespics img {
+      width: 50%;
+      height: 100%;
+    }
+
+    .Categoriespics div {
+      padding: 30px 0px 30px 0px;
+    }
+
+    .welcomebanner{
+      position: static;
+      padding: 109px 74px 200px 22px;
+      height: 100%;
+      margin-right:-90px;
+    }
+
+    .welcomebanner h1 {
+      font-size: 72px;
+      text-align: center;
+      padding-right: 0px;
+    }
+
+    .welcomebanner p{
+      float: none;
+      font-size: 32px;
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 150px;
+      padding: 0px 50px 0px 50px;
+    }
+
+    .welcomebanner button {
+      position: static;
+      right: 0px;
+      bottom: 0px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .greenbtn{
+      font-size: 32px;
+      padding: 10px 150px 10px 150px;
+    }
+
+    .CollectionHighlight{
+      flex-direction: column-reverse;
+    }
+
+    .CHtext{
+      text-align: center;
+      width: 100%;
+      margin-top: -47px;
+    }
+
+    .CHtext h2 {
+      font-size: 60px;
+    }
+
+    .CHtext p {
+      float: none;
+      width: 66%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+    }
+
+    .CHtext button {
+      width: 59%;
+      font-size: 29px;
+      padding: 20px 150px 20px 150px;
+    }
+
+    .CHdiv h4 {
+      font-size: 36px;
+    }
+
+    .CHdiv p {
+      font-size: 28px;
+    }
+
+    .banner{
+      display: block;
+      margin-right: -10%;
+      height: 100%;
+    }
+
+    .bannertext {
+      text-align: center;
+      width: 100%;
+      padding: 50px 0px 130px 0px;
+      margin: -6px 0px 19px 0px;
+    }
+
+    .banner h1 {
+      float: none;
+      font-size: 70px;
+      text-align: right;
+      padding-right: 30%;
+    }
+
+    .bannertext p {
+      float: none;
+      font-size: 24px;
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+
+    .bannerdivimg {
+      width: 100%;
+      height: 570px;
+    }
+
+    .bannerimg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .redx {
+      top: 92%;
+      left: 1%;
+      right: 0;
+    }
+
+    .garantees{
+      margin: -20px -97px -25px 0px;
+    }
+
+    .garantees div {
+      flex-direction: column;
+    }
+
+    .garantees h2 {
+      font-size: 60px;
+    }
+
+    .garantees div img{
+      width: 65%;
+      height: 75%;
+    }
+
+    .garantees div h6{
+      font-size: 35px;
+    }
+
+    .newsletter{
+      flex-direction: column;
+      margin-right: -97px;
+    }
+
+    .newsletter form {
+      margin-right: auto;
+      padding: 50px 0px 50px 0px;
+    }
+
+    .newsletter h1{
+      font-size: 75px;
+      padding: 75px 0px 115px 0px;
+    }
+
+    .newsletter input[type=email], input[type=submit]{
+      font-size: 50px;
+    }
+
+    .newsletter input[type=submit]{
+      font-size: 50px;
+    }
+
+    .nlredx{
+      width: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px 0px 50px 0px;
+    }
+
+    .footer {
+    flex-direction: column;
+    font-size: 30px;
+    }
+
+    .footer div{
+      text-align: center;
+    }
+
+  }
