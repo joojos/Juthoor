@@ -35,8 +35,6 @@ a{
   margin-bottom: -40px;
   padding-top: 9px;
   padding-bottom: 9px;
-  flex-basis: auto;
-  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -50,16 +48,37 @@ a{
 }
 
 .topnav-centered{
-  width: 150%;
-  padding-left: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 4;
 }
+
+.navlist{
+  text-align: center;
+  flex-grow: 2;
+}
+
+.navlogo{
+  flex: 1;
+  text-align: center;
+}
+
+.navlist2{
+  text-align: center;
+  flex: 2;
+}
+
 
 .topnav-right{
   text-align: right;
+  flex: 1;
 }
 
 .topnav-left{
   text-align: left;
+  flex: 1;
 }
 
 .navicons{
@@ -73,7 +92,7 @@ a{
 
 
 .navaccount{
-  width: 20%;
+  width: 15%;
   height: 20%;
 }
 
@@ -82,10 +101,10 @@ a{
 }
 
 .logo{
-  width: 23%;
+  width: 100%;
   height: 50%;
-  padding: 0px 50px;
-  margin: 0px -65px 0px -65px;
+  padding: 0px 0px;
+  margin: 0px -85px 0px 0px;
 }
 
 .video{
@@ -566,9 +585,9 @@ footer{
       }
 
       .logo{
-        margin: 0px 135px 0px 0px;
-        width: 70%;
-        height: 60%;
+        margin: 16px 0px 3px -35px;
+        width: 150%;
+        height: 100%;
       }
 
       .navaccount {
@@ -579,10 +598,10 @@ footer{
       }
 
       .navicons {
-        width: 650%;
-        height: 650%;
+        width: 35%;
+        height: 10%;
         margin-top: 15px;
-        margin-right: -1px;
+        margin-right: -60px;
       }
 
       .video{
@@ -830,7 +849,6 @@ footer{
 
     }
 
-
     @media only screen
       and (min-device-width: 320px)
       and (max-device-width: 480px)
@@ -854,9 +872,9 @@ footer{
         }
 
         .logo{
-          margin: 0px 135px 0px 0px;
-          width: 70%;
-          height: 60%;
+          margin: 16px 0px 3px -35px;
+          width: 150%;
+          height: 100%;
         }
 
         .navaccount {
@@ -867,10 +885,10 @@ footer{
         }
 
         .navicons {
-          width: 650%;
-          height: 650%;
+          width: 35%;
+          height: 10%;
           margin-top: 15px;
-          margin-right: -1px;
+          margin-right: -60px;
         }
 
         .video{
@@ -1136,9 +1154,9 @@ footer{
     }
 
     .logo{
-      margin: 0px 135px 0px 0px;
-      width: 70%;
-      height: 60%;
+      margin: 16px 0px 3px -35px;
+      width: 150%;
+      height: 100%;
     }
 
     .navaccount {
@@ -1149,10 +1167,10 @@ footer{
     }
 
     .navicons {
-      width: 650%;
-      height: 650%;
+      width: 35%;
+      height: 10%;
       margin-top: 15px;
-      margin-right: -1px;
+      margin-right: -60px;
     }
 
     .video{
