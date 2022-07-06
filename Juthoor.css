@@ -1,0 +1,831 @@
+body{
+  background-color: #FFFBDF;
+  font-family: Jali Arabic;
+  font-weight: bolder;
+  margin: 0;
+}
+
+p{
+  font-family: Mirza;
+  font-weight: bold;
+}
+
+header{
+  color: #707070;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.topnav{
+  display: flex;
+  background-color: #FFFBDF;
+  margin-top: 0px;
+  margin-bottom: -40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.topnav a{
+  padding: 0px 15px 0px 15px;
+}
+
+.topnav a:hover{
+  color: #F15831;
+  transition: 0.2s ease-in;
+}
+
+.topnav-centered{
+  width: 150%;
+  padding-left: 50px;
+}
+
+.topnav-right{
+  text-align: right;
+}
+
+.topnav-left{
+  text-align: left;
+}
+
+.navicons{
+  width: 10%;
+  height: 20%;
+}
+
+.navicons:hover{
+  filter: invert(0.4) sepia(2) saturate(15.4) hue-rotate(324deg) brightness(0.97);
+}
+
+
+.navaccount{
+  width: 20%;
+  height: 20%;
+}
+
+.navaccount:hover{
+  filter: invert(0.4) sepia(2) saturate(15.4) hue-rotate(324deg) brightness(0.97);
+}
+
+.logo{
+  width: 23%;
+  height: 50%;
+  padding: 0px 50px;
+  margin: 0px -65px 0px -65px;
+}
+
+.video{
+  position: relative;
+  height: 57vw
+
+}
+
+
+.video iframe{
+  height:57vw;
+  width:100vw;
+  position: absolute;
+  top: -140px;
+  z-index: -1;
+}
+
+button{
+  font-family: Jali Arabic;
+  font-weight: normal;
+}
+
+.greenbtn{
+  background-color: #D3E280;
+  color: #07564C;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+  padding: 10px 100px 10px 100px;
+
+}
+
+.video button{
+  position: absolute;
+  bottom: 35%;
+  left: 37%;
+}
+
+.greenbtn:hover{
+  background-color: #07564C;
+  color: #D3E280;
+}
+
+path {
+  fill: transparent;
+  direction: revert;
+}
+
+text {
+  fill: #E53519;
+  font-size: 45px;
+  text-align: right;
+}
+
+.Categories{
+  display: flex;
+  padding: 18px 10px 50px 10px;
+
+}
+
+.Categories h1{
+  color: #ED542E;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: right;
+  padding: 30px 70px 0px 0px;
+}
+
+.Categories p{
+  font-size: 30px;
+  color: #656565;
+  text-align: right;
+  padding: 0px 70px 0px 0px;
+  margin-top: -30px;
+}
+.Categoriespics{
+  display: flex;
+  text-align: center;
+}
+
+.Categoriespics div{
+  padding: 0px 40px 0px 40px;
+  position: relative;
+}
+
+.Categoriespics img{
+  width: 130%;
+  height: 100%;
+}
+
+.Categoriespics h2{
+  color: #E1301A;
+  font-size: 30px;
+  position: absolute;
+  top: -12%;
+  right: -7%;
+  width: 100%;
+}
+
+.Categoriestext{
+  padding-left: 65px;
+  width: 50%;
+}
+
+.welcomebanner{
+  background-color: #124C42;
+  position: relative;
+  padding: 20px 70px 70px 0px;
+  height: 350px;
+}
+
+.welcomebanner h1{
+  color: #F7AC9B;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.welcomebanner p{
+  color: #FFFBDF;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: -10px;
+  text-align: right;
+  float: right;
+  width: 60%;
+  padding-right: 50px;
+  z-index: 5;
+}
+
+.welcomebanner button{
+  position: absolute;
+  right: 120px;
+  bottom: 45px;
+  display: inline;
+}
+
+.bannerflower{
+  position: absolute;
+  width: 25%;
+  height: 70%;
+  left: -2%;
+  top: 0;
+}
+
+.CollectionHighlight{
+  display: flex;
+  padding: 70px 0px 70px 0px;
+}
+
+.CHtext{
+  text-align: right;
+  padding: 0px 80px 0px 15px;
+  width: 50%;
+  margin-right: 50px;
+}
+
+.CHtext button{
+  width: 70%;
+  font-size: 12px;
+}
+
+.CHtext h2{
+  color: #E53509;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.CHtext p{
+  color: #656565;
+  width: 60%;
+  margin-top: -40px;
+  float: right;
+}
+
+.CHdiv{
+  display: flex;
+  text-align: center;
+  float: right;
+}
+
+.CHdiv div{
+  padding: 0px 15px 0px 15px;
+  position: relative;
+}
+
+.CHdiv h4{
+  position: absolute;
+  color: #01564C;
+  bottom: 15px;
+  right: 22%;
+  font-size: 24px;
+}
+
+.CHdiv p{
+  position: absolute;
+  color: #01564C;
+  bottom: 5px;
+  right: 30%;
+  font-size: 16px;
+}
+
+.CHdiv img{
+  width: 115%;
+  height: 80%;
+}
+
+.banner{
+  display: flex;
+  height: 500px;
+}
+
+.bannertext{
+  background-color: #01564C;
+  color: #FFFBDF;
+  text-align: right;
+  padding: 50px 100px 30px 100px;
+  /* margin-bottom: 0.5%; */
+}
+
+
+.banner h1{
+  float: right;
+  font-size: 70px;
+  font-weight: bolder;
+
+}
+
+.bannertext p{
+  float: right;
+  margin-top: -45px;
+  width: 60%;
+
+}
+
+.bannerdivimg{
+  position: relative;
+  width: 50%;
+}
+
+.bannerimg{
+
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.redx{
+  position: absolute;
+  top: 30px;
+  width: 20%;
+  height: 20%;
+  right: -110%;
+  z-index: 1;
+}
+
+.garantees{
+  background-color: #F7AC9B;
+  color: #FFFBDF;
+  margin: -20px 0px -25px 0px;
+  padding: 50px;
+}
+
+.garantees h2{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.garantees div{
+  display: flex;
+}
+
+.garantees div div{
+  display: block;
+}
+
+.garantees div img{
+  width: 50%;
+  height: 65%;
+}
+
+.garantees div h6{
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.newsletter{
+  background-color: #92CFF1;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 30px 50px 30px;
+}
+
+.newsletter h1{
+  color: #F15831;
+}
+
+.newsletter form{
+  margin-right: -250px;
+}
+
+.newsletter input[type=email]{
+  background-color: #92CFF1;
+  font-family: mirza;
+  font-size: 24px;
+  color: #F15831;
+  text-align: right;
+  border-bottom: 1px solid #F15831;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 60%;
+}
+
+.newsletter input[type=submit]{
+  background-color: #92CFF1;
+  font-weight: bold;
+  font-size: 24px;
+  color: #F15831;
+  border: none;
+  padding: 15px 5px 15px 5px;
+  float: left;
+}
+
+::placeholder {
+  color: #F15831;
+}
+
+.nlredx{
+  width: 2%;
+  height: 2%;
+  padding-top: 35px;
+}
+
+footer{
+  color: #F15831;
+  padding: 30px 0px 30px 0px;
+
+}
+
+.footer{
+    display: flex;
+}
+
+.footer div{
+    text-align: left;
+    position: relative;
+}
+
+.footer h4{
+    text-transform: uppercase;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: -40px;
+    top: 0;
+    padding: 15px;
+}
+
+.footer ul{
+    font-family: Mirza;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+.socials{
+  padding: 15px;
+  width: 10%;
+}
+
+.fsocials{
+  padding: 15px;
+  width: 6%;
+}
+
+.desktophide{
+  display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #F15831;
+  color: #FFFBDF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: none;
+}
+
+.sidenav a {
+  padding: 40px 110px 30px 32px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 45px;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  font-size: 45px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+.sidenav input[type="text"]{
+  border: 1px solid #FFFBDF;
+  background-color: #F15831;
+  color: #FFFBDF;
+  font-size: 40px;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 20px;
+  margin: 10px 10px 10px 10px;
+  resize: vertical;
+}
+
+.sidenav ::placeholder {
+  color: #FFFBDF;
+}
+
+.sidenav .cart{
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  width: 5%;
+}
+
+.sidenav .wishlist{
+  position: absolute;
+  right: 150px;
+  top: 65px;
+  width: 5%;
+}
+
+.sidenav div{
+  position: relative;
+}
+
+.sidenav .search{
+  position: absolute;
+  right: 135px;
+  top: 30px;
+  width: 4%;
+}
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+      .mobilehide{
+        display: none;
+      }
+
+      .desktophide{
+        display: block;
+      }
+
+      .topnav{
+        margin-bottom: 40px;
+      }
+
+      .topnav-centered{
+        padding-left: 0px;
+      }
+
+      .logo{
+        margin: 0px 135px 0px 0px;
+        width: 70%;
+        height: 60%;
+      }
+
+      .navaccount {
+        width: 30%;
+        height: 30%;
+        margin-top: 3px;
+        margin-left: 23px;
+      }
+
+      .navicons {
+        width: 650%;
+        height: 650%;
+        margin-top: 15px;
+        margin-right: -1px;
+      }
+
+      .video{
+        margin-right: -94px;
+        height: 138vw;
+        width: 110%;
+        overflow-x: hidden;
+      }
+
+      .video iframe{
+        height:135vw;
+        width:237vw;
+        position: static;
+        top: 45px;
+
+      }
+
+      .video button{
+        left: 27%;
+        bottom: 15%;
+        font-size: 45px;
+      }
+
+      .Categories{
+        flex-direction: column-reverse;
+      }
+
+      .Categories h1{
+        text-align: right;
+        font-size: 80px;
+      }
+
+      .Categories p{
+        text-align: right;
+      }
+
+      .Categoriestext {
+        padding-left: 40px;
+        width: 100%;
+        margin: -43px 0px 30px 0px;
+      }
+
+      .Categoriespics{
+        flex-direction: column;
+
+      }
+
+      .Categoriespics h2 {
+        font-size: 50px;
+        top: -9%;
+        right: -1%;
+        width: 100%;
+      }
+
+      .Categoriespics img {
+        width: 50%;
+        height: 100%;
+      }
+
+      .Categoriespics div {
+        padding: 30px 0px 30px 0px;
+      }
+
+      .welcomebanner{
+        position: static;
+        padding: 109px 74px 200px 22px;
+        height: 100%;
+        margin-right:-90px;
+      }
+
+      .welcomebanner h1 {
+        font-size: 72px;
+        text-align: center;
+        padding-right: 0px;
+      }
+
+      .welcomebanner p{
+        float: none;
+        font-size: 32px;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        padding: 0px 50px 0px 50px;
+      }
+
+      .welcomebanner button {
+        position: static;
+        right: 0px;
+        bottom: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .greenbtn{
+        font-size: 32px;
+        padding: 10px 150px 10px 150px;
+      }
+
+      .CollectionHighlight{
+        flex-direction: column-reverse;
+      }
+
+      .CHtext{
+        text-align: center;
+        width: 100%;
+        margin-top: -47px;
+      }
+
+      .CHtext h2 {
+        font-size: 60px;
+      }
+
+      .CHtext p {
+        float: none;
+        width: 66%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+      }
+
+      .CHtext button {
+        width: 59%;
+        font-size: 29px;
+        padding: 20px 150px 20px 150px;
+      }
+
+      .CHdiv h4 {
+        font-size: 36px;
+      }
+
+      .CHdiv p {
+        font-size: 28px;
+      }
+
+      .banner{
+        display: block;
+        margin-right: -10%;
+        height: 100%;
+      }
+
+      .bannertext {
+        text-align: center;
+        width: 100%;
+        padding: 50px 0px 130px 0px;
+        margin: -6px 0px 19px 0px;
+      }
+
+      .banner h1 {
+        float: none;
+        font-size: 70px;
+        text-align: right;
+        padding-right: 30%;
+      }
+
+      .bannertext p {
+        float: none;
+        font-size: 24px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+
+      .bannerdivimg {
+        width: 100%;
+        height: 570px;
+      }
+
+      .bannerimg {
+        width: 100%;
+        height: 100%;
+      }
+
+      .redx {
+        top: 92%;
+        left: 1%;
+        right: 0;
+      }
+
+      .garantees{
+        margin: -20px -97px -25px 0px;
+      }
+
+      .garantees div {
+        flex-direction: column;
+      }
+
+      .garantees h2 {
+        font-size: 60px;
+      }
+
+      .garantees div img{
+        width: 65%;
+        height: 75%;
+      }
+
+      .garantees div h6{
+        font-size: 35px;
+      }
+
+      .newsletter{
+        flex-direction: column;
+        margin-right: -97px;
+      }
+
+      .newsletter form {
+        margin-right: auto;
+        padding: 50px 0px 50px 0px;
+      }
+
+      .newsletter h1{
+        font-size: 75px;
+        padding: 75px 0px 115px 0px;
+      }
+
+      .newsletter input[type=email], input[type=submit]{
+        font-size: 50px;
+      }
+
+      .newsletter input[type=submit]{
+        font-size: 50px;
+      }
+
+      .nlredx{
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 0px 50px 0px;
+      }
+
+      .footer {
+      flex-direction: column;
+      font-size: 30px;
+      }
+
+      .footer div{
+        text-align: center;
+      }
+
+
+    }

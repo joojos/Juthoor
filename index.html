@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Juthoor.css">
+    <script src="myscript.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+  <header>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="sidenavicon" href=""><img class="wishlist" src="Images/bageheart.svg" alt="wishlist"></a>
+      <a href=""><img class="cart" src="images/bagecart.svg" alt="cart"></a>
+      <div class="center">
+        <input type="text" placeholder="What are you looking for?">
+        <img class="search" src="Images/bagesearch.svg" alt="search">
+      </div>
+      <a href="#">تسوق</a>
+      <a href="#">مفضلات الشهر</a>
+      <a href="#">عن جذور</a>
+      <a href="#">انضم لنا</a>
+    </div>
+    <!-- nav bar -->
+    <div class="topnav center">
+      <div class="topnav-left">
+        <a href=""><img class="navaccount" src="Images/account.svg" alt="account"></a>
+      </div>
+      <div class="topnav-centered">
+        <a class="mobilehide" href=""> تسوق</a>
+        <a class="mobilehide" href="">مفضلات الشهر</a>
+        <a href=""><img class="logo" src="Images/Juthoor.svg" alt="logo"></a>
+        <a class="mobilehide" href="">عن جذور</a>
+        <a class="mobilehide" href="">انضم لنا</a>
+      </div>
+      <div class="topnav-right">
+           <a class="mobilehide" href=""><img class="navicons" src="Images/search.svg" alt="search"></a>
+           <a class="mobilehide" href=""><img class="navicons" src="Images/wishlist.svg" alt="wishlist"></a>
+           <a class="mobilehide" href=""><img class="navicons" src="images/cart.svg" alt="cart"></a>
+           <a class="desktophide"><img class="navicons" src="images/burgermenu.svg" alt="menu" onclick="openNav()"></a>
+      </div>
+    </div>
+  </header>
+    <!-- video -->
+    <div class="video">
+      <div id="player">
+        <iframe src="https://www.youtube.com/embed/dzT8m865fII?autoplay=1&mute=1&controls=0&loop=1" allowfullscreen frameborder="0" autoplay="autoplay" muted defaultmuted></iframe>
+      </div>
+      <button class="greenbtn">تسوق الآن</button>
+    </div>
+    <!-- <svg height="400" width="450">
+      <path id="curve" d="M 100 200 q 150 -250 300 0" />
+      <text width="500">
+        <textPath xlink:href="#curve">
+          المربى والمخللات
+        </textPath>
+      </text>
+    </svg> -->
+    <!-- Categories -->
+    <div class="Categories">
+      <div class="Categoriespics">
+        <div>
+          <img src="Images/C1.png" alt="category">
+          <h2>المخبوزات</h2>
+        </div>
+        <div>
+          <img src="Images/C2.png" alt="category">
+          <h2>المنتجات الطازجة</h2>
+        </div>
+        <div>
+          <img src="Images/C3.png" alt="category">
+          <h2>المربى والمخللات</h2>
+        </div>
+      </div>
+      <div class="Categoriestext">
+        <h1>منتجاتنا</h1>
+        <p>تشكيلة واسعة من المنتجات</p>
+      </div>
+    </div>
+    <!-- Welcome Banner -->
+    <div class="welcomebanner">
+      <h1>مرحبا بك في جذور</h1>
+      <p>
+        في جذور ماركت، نحن نعي بشكل كبير الموهبة التي تكمن خلف أصحاب الأعمال المبدعة في منطقتنا، ونتطلع لخلق بيئة تضع منتجاتهم في الصفوف الأمامية وتربطهم بعملائهم. إذا كان هدفك أن تعرض منتجاتك أو تدعم الإنتاج المحلي ، فأنت في المكان الصحيح!
+
+في عام 2019، بدأنا بإقامة سوق محلي موسمي في مدينة الظهران. وكان هدفنا الأساسي أن نروج لفكرة المنتج المحلي، وندعم أصحاب الأعمال المحلية وأن تكون هناك منصة مخصصة لهم وتربطهم بالعميل. بعد إقامة أكثر من سوق، تمكنّا من كسب ثقة الجمهور وخلق مجموعة من العملاء الذين يترقبون كل جديد من فريق جذور.
+
+      </p>
+      <img class="bannerflower mobilehide" src="Images/flowerbanner.svg" alt="flower">
+      <button class="greenbtn">قصتنا</button>
+    </div>
+    <!-- Collection Highlight -->
+    <div class="CollectionHighlight">
+      <div class="CHtext">
+        <h2>مربى نورة</h2>
+        <p>في جذور ماركت، نحن نعي بشكل كبير الموهبة التي تكمن خلف أصحاب الأعمال المبدعة في منطقتنا، ونتطلع دائما لخلق بيئة تضع منتجاتهم في الصفوف الأمامية وتربطهم بعملائهم.</p>
+        <button class="greenbtn">تسوق الآن</button>
+      </div>
+      <div class="CHdiv">
+        <div>
+          <img src="Images/peachjam.svg" alt="peach jam">
+          <h4 class="mobilehide">مربى خوخ</h4>
+          <p class="mobilehide">50 ريال</p>
+        </div>
+        <div>
+          <img src="Images/applejam.svg" alt="apple jam">
+          <h4 class="mobilehide">مربى تفاح</h4>
+          <p class="mobilehide">50 ريال</p>
+        </div>
+        <div>
+          <img src="Images/orangejam.svg" alt="orange jam">
+          <h4 class="mobilehide">مربى برتقال</h4>
+          <p class="mobilehide">50 ريال</p>
+        </div>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="bannerdivimg">
+        <img class="bannerimg" src="Images/basketoffer.jpeg" alt="basket offer">
+        <img class="redx" src="Images/red x.svg" alt="X symbol">
+      </div>
+      <div class="bannertext">
+        <h1>هدية<br>
+          رمضان المثالية</h1>
+        <p>
+        في جذور ماركت، نحن نعي بشكل كبير الموهبة التي تكمن خلف أصحاب الأعمال المبدعة في منطقتنا، ونتطلع دائما لخلق بيئة تضع منتجاتهم في الصفوف الأمامية وتربطهم بعملائهم.
+        </p>
+      </div>
+    </div>
+    <!-- Juthoor Garantees -->
+    <div class="garantees">
+      <h2 class="center">جذور تضمن لك</h2>
+      <div>
+        <div class="center">
+          <img src="Images/package.svg" alt="package">
+          <h6>التخزين والشحن الأفضل</h6>
+        </div>
+        <div class="center">
+          <img src="Images/local.svg" alt="local stores">
+          <h6>منتجات 100٪ محلية </h6>
+        </div>
+        <div class="center">
+          <img src="Images/quality.svg" alt="quality">
+          <h6>منتجات بجودة عالية</h6>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="newsletter">
+      <img class="nlredx" src="Images/red x.svg" alt="red x symbol">
+      <h1 class="center">اشترك في نشرتنا</h1>
+      <form class="center">
+        <input type="email" placeholder="الإيميل">
+        <input type="submit" value="<">
+      </form>
+      <img class="nlredx" src="Images/red x.svg" alt="red x symbol">
+    </div>
+  </body>
+  <footer>
+    <div class="footer center">
+      <div class="center">
+      <h4 class="mobilehide">Contact Us</h4>
+      <ul>
+         <li>+966 507978114</li>
+         <li>admin@juthoormarket.com</li>
+         <li>
+           <img class="socials" src="Images/instagram.svg" alt="instagram">
+           <img class="socials" src="Images/twitter.svg" alt="twitter">
+           <img class="fsocials" src="Images/facebook.svg" alt="facebook">
+         </li>
+      </ul>
+    </div>
+      <div class="center">
+      <h4 class="mobilehide">Services</h4>
+      <ul>
+         <li>Contact Us</li>
+         <li>Shipping Policy</li>
+         <li>Return Policy</li>
+         <li>FAQ</li>
+      </ul>
+    </div>
+      <div class="center">
+      <h4 class="mobilehide">Information</h4>
+      <ul>
+         <li>Our Story</li>
+         <li>The Juthoor Team</li>
+         <li>Join Us</li>
+         <li>Privacy Policy</li>
+         <li>Terms & Conditions</li>
+      </ul>
+    </div>
+    </div>
+  </footer>
+</html>
