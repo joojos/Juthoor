@@ -1,12 +1,19 @@
+@font-face {
+    font-family: 'Jali Arabic';
+    src: url(fonts/Jali Arabic Bold.ttf) format(truetype);
+    font-family: 'Mirza';
+    src: url(fonts/Mirza-regular.ttf) format(truetype);
+}
+
 body{
   background-color: #FFFBDF;
-  font-family: Jali Arabic;
+  font-family: 'Jali Arabic';
   font-weight: bolder;
   margin: 0;
 }
 
 p{
-  font-family: Mirza;
+  font-family: 'Mirza';
   font-weight: bold;
 }
 
@@ -92,7 +99,7 @@ a{
 
 
 .navaccount{
-  width: 15%;
+  width: 12%;
   height: 20%;
 }
 
@@ -104,7 +111,7 @@ a{
   width: 100%;
   height: 50%;
   padding: 0px 0px;
-  margin: 0px -85px 0px 0px;
+  margin: 0px -110px 0px 0px;
 }
 
 .video{
@@ -123,7 +130,7 @@ a{
 }
 
 button{
-  font-family: Jali Arabic;
+  font-family: 'Jali Arabic';
   font-weight: normal;
 }
 
@@ -133,6 +140,7 @@ button{
   border-radius: 4px;
   border: none;
   font-size: 20px;
+  font-weight: bolder;
   padding: 10px 100px 10px 100px;
 
 }
@@ -410,7 +418,7 @@ text {
 
 .newsletter input[type=email]{
   background-color: #92CFF1;
-  font-family: mirza;
+  font-family: 'Mirza';
   font-size: 24px;
   color: #F15831;
   text-align: right;
@@ -467,7 +475,7 @@ footer{
 }
 
 .footer ul{
-    font-family: Mirza;
+    font-family: 'Mirza';
     font-weight: normal;
     list-style-type: none;
 }
@@ -563,6 +571,74 @@ footer{
   width: 4%;
 }
 
+.CU{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 40px 40px 10px 40px;
+
+}
+
+.rightCU{
+  background-color: #F7AC9B;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  font-size: 12px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.rightCU div{
+  padding: 40px 40px 80px 40px;
+}
+
+.rightCU img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 22%;
+}
+
+.leftCU{
+  background-color: #E0B7D6;
+  padding: 50px;
+  width: 50%;
+}
+
+input[type=text],input[type=email], input[type=number], textarea{
+  background-color: #FFFBDF;
+  border: 1px solid #E0B7D6;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  resize: vertical;
+  text-align: center;
+  /* display: inline-block; */
+}
+
+textarea{
+  text-align: right;
+  height: 150px;
+
+}
+
+textarea::placeholder{
+  color: #E0B7D6;
+}
+
+input[type=submit]{
+  font-family: 'Jali Arabic';
+}
+
+label{
+  color: black;
+  display: block;
+  text-align: right;
+}
+
 @media only screen
     and (device-width: 390px)
     and (device-height: 844px)
@@ -585,8 +661,8 @@ footer{
       }
 
       .logo{
-        margin: 16px 0px 3px -35px;
-        width: 150%;
+        margin: 16px 0px 3px -110px;
+        width: 260%;
         height: 100%;
       }
 
@@ -846,6 +922,45 @@ footer{
         text-align: center;
       }
 
+      .CU{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        margin: 0px 0px 0px 0px;
+      }
+
+      .rightCU{
+        width: 100%;
+        padding: 50px 0px 79px 59px;
+        font-size: 24px;
+      }
+
+      .rightCU img{
+        height: 24%;
+      }
+
+      .leftCU{
+        width: 100%;
+        padding: 30px 35px 30px 23px;
+      }
+
+      label{
+        font-size: 35px;
+      }
+
+      input[type=text],input[type=email], input[type=number], textarea{
+        padding: 45px;
+        margin: 10px 10px 10px 10px;
+        font-size: 35px;
+      }
+
+      textarea{
+        padding: 10px;
+        font-size: 35px;
+      }
+
+
+
 
     }
 
@@ -872,8 +987,8 @@ footer{
         }
 
         .logo{
-          margin: 16px 0px 3px -35px;
-          width: 150%;
+          margin: 16px 0px 3px -110px;
+          width: 260%;
           height: 100%;
         }
 
